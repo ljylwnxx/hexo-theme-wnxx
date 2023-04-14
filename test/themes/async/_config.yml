@@ -12,7 +12,7 @@ user:
 
 # Configure the icon information of the site
 favicon:
-  logo: /img/favicon.png
+  logo: /img/logo.png
   icon32: /img/favicon.png
   appleTouchIcon: apple-touch-icon.png
   webmanifest: 

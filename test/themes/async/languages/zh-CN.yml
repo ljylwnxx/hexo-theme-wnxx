@@ -4,7 +4,6 @@ site:
   domain: 网站链接
   avatar: 网站头像
   describe: 网站简介
-  ruleText: 友链要求
 
 sidebar:
   residence: Residence

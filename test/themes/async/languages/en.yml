@@ -4,7 +4,6 @@ site:
   domain: Domain
   avatar: Avatar
   describe: Describe
-  ruleText: Friend chain requirements
 
 sidebar:
   residence: Residence

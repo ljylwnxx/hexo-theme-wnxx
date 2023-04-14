@@ -93,6 +93,12 @@ top_bars:
     url: /archives/
   - title: menu.links
     url: /links/
+  - title: menu.about
+    url: /about/
+  - title: menu.tags
+    url: /tags/
+  - title: menu.categories
+    url: /categories/
 
 # Banner settings
 banner:

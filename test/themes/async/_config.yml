@@ -115,6 +115,12 @@ banner:
   archive:
     bannerTitle: 写代码需要反思和重构,<br>生活也是一样。
     bannerText: The article archive
+  tag:
+    bannerTitle: 让代码没有Bug,<br>世界永远和平。
+    bannerText: The article tag
+  category:
+    bannerTitle: 代码改变世界,<br>数据连接你我。
+    bannerText: The article category
   links:
     bannerTitle: 敲的不是代码,<br>是世界的改变。
     bannerText: A link to a friend's website

@@ -35,9 +35,9 @@ assets:
       main: js/main.js
   # Icon configuration
   icons: 
-    type: font # font symbol
-    css:  css/plugins/font-awesome.min.css
-    js:
+     type: font
+        css: css/plugins/demo.css
+        js: 
 
 # CDN User - defined plug-in
 cdn:
@@ -51,39 +51,38 @@ cdn:
 # The icon used by the theme
 icons:
   # Theme switch icon
-  sun: far fa-sun
-  moon: far fa-moon
+  sun: 
+  moon: 
   # Home video play
-  play: fas fa-play
+  play: 
   # email icon
-  email: far fa-envelope
+  email: 
   # Category entry icon
-  next: fas fa-arrow-right
+  next: 
   # Date of article details
-  calendar: far fa-calendar-alt
+  calendar: 
   # Article details time
-  clock: far fa-clock
+  clock: 
   # Author of article details
-  user: far fa-user
+  user: 
   # Return to the top icon
-  back_top: fas fa-arrow-up
+  back_top: 
   # close icon
-  close: fas fa-times
+  close: 
   # search icon
-  search: fas fa-search
+  search: 
   # reward icon
-  reward: fas fa-hand-holding-usd
+  reward: 
   # User information and article directory switch
-  user_tag: fas fa-user-alt
-  toc_tag: fas fa-th-list
+  user_tag: 
+  toc_tag: 
   # Secure the button in the lower right corner
-  read: fas fa-book-reader
-  arrows: fas fa-arrows-alt-h
+  read: 
+  arrows: 
   # Code highlight fold icon
-  double_arrows: fas fa-angle-double-down
+  double_arrows: 
   # Code copy icon
-  copy: fas fa-copy
-
+  copy: 
 # Top navigation menu
 top_bars:
   - title: menu.home
@@ -142,11 +141,11 @@ sidebar:
     - name: Github
       icon: fab fa-github
       url: https://github.com
-    - name: NPM
-      icon: fab fa-npm
-      url: https://npm.com
+    # - name: NPM
+    #   icon: fab fa-npm
+    #   url: https://npm.com
     - name: gitee
-      icon: iconfont cg-gitee
+      icon:  icon-gitee
       url: https://gitee.com
 
 # Links page settings

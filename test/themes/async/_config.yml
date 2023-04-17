@@ -133,8 +133,8 @@ banner:
 
 # Sidebar settings
 sidebar:
-  typedTextPrefix: I`m
-  typedText: 
+  typedText: [ '今日目标,没有bug','一行代码,定义无限可能','永不脱发,无Bug']
+
   info: 
     - key: sidebar.residence
       val: Mars
@@ -142,6 +142,12 @@ sidebar:
     - name: Github
       icon: fab fa-github
       url: https://github.com
+    - name: NPM
+      icon: fab fa-npm
+      url: https://npm.com
+    - name: gitee
+      icon: iconfont cg-gitee
+      url: https://gitee.com
 
 # Links page settings
 links:

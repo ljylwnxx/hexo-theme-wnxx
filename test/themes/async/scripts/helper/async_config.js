@@ -16,6 +16,7 @@ hexo.extend.helper.register('async_config', function () {
         typed_text: theme.sidebar.typedText,
         theme_version: theme.version,
         theme: theme.theme,
+        default: theme.default,
         favicon: toI18n(theme.favicon, __),
         i18n: {
             placeholder: theme.search.placeholder || __('search.placeholder'),

@@ -35,9 +35,12 @@ assets:
       main: js/main.js
   # Icon configuration
   icons: 
-     type: font
-        css: css/plugins/demo.css
-        js: 
+    #  -type: font
+    #   css: css/plugins/font-awesome.min.css
+    #   js: 
+      type: font
+      css: //at.alicdn.com/t/c/font_4020021_lhgtwuldzan.css
+      js: 
 
 # CDN User - defined plug-in
 cdn:
@@ -51,38 +54,38 @@ cdn:
 # The icon used by the theme
 icons:
   # Theme switch icon
-  sun: 
-  moon: 
+  sun: iconfont icon-sun
+  moon: iconfont icon-moon
   # Home video play
-  play: 
+  play: iconfont icon-play
   # email icon
-  email: 
+  email: iconfont icon-email
   # Category entry icon
-  next: 
+  next: iconfont icon-next
   # Date of article details
-  calendar: 
+  calendar: iconfont icon-calendar
   # Article details time
-  clock: 
+  clock: iconfont icon-clock
   # Author of article details
-  user: 
+  user: iconfont icon-user
   # Return to the top icon
-  back_top: 
+  back_top: iconfont icon-back-top
   # close icon
-  close: 
+  close: iconfont icon-close
   # search icon
-  search: 
+  search: iconfont icon-search
   # reward icon
-  reward: 
+  reward: iconfont icon-reward
   # User information and article directory switch
-  user_tag: 
-  toc_tag: 
+  user_tag: iconfont icon-user-tag
+  toc_tag: iconfont icon-toc
   # Secure the button in the lower right corner
-  read: 
-  arrows: 
+  read: iconfont icon-read
+  arrows: iconfont icon-arrows
   # Code highlight fold icon
-  double_arrows: 
+  double_arrows: iconfont icon-arrows-h
   # Code copy icon
-  copy: 
+  copy: iconfont icon-copy
 # Top navigation menu
 top_bars:
   - title: menu.home
@@ -139,13 +142,13 @@ sidebar:
       val: Mars
   social:
     - name: Github
-      icon: fab fa-github
+      icon: iconfont icon-github
       url: https://github.com
     # - name: NPM
     #   icon: fab fa-npm
     #   url: https://npm.com
     - name: gitee
-      icon:  icon-gitee
+      icon: iconfont icon-gitee
       url: https://gitee.com
 
 # Links page settings

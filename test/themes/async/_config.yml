@@ -101,32 +101,60 @@ top_bars:
 # Banner settings
 banner:
   use_cover: false
-  default:
-    type: img
-    bgurl: /img/banner.png
-    bannerText: Hi my new friend!
-    position: top
-    fit: cover
+  # default:
+  #   type: img
+  #   bgurl: /img/banner.png
+  #   bannerText: Hi my new friend!
+  #   position: top
+  #   fit: cover
   index:
     bannerTitle: 喜欢这件事,不会有任何的Bug,<br>所以不需要Debug。
     bannerText: Hello World!
-    videoUrl: 
+    type: video
+    bgurl: https://video-js.51miz.com/preview/element/00/01/25/58/E-1255854-B6561BCD.mp4
+    position: top
+    fit: cover
+    videoUrl: https://video-js.51miz.com/preview/element/00/01/25/58/E-1255854-B6561BCD.mp4
   archive:
+    type: img
+    bgurl: /img/banner.png
+    position: top
+    fit: cover
     bannerTitle: 写代码需要反思和重构,<br>生活也是一样。
     bannerText: The article archive
   tag:
+    type: img
+    bgurl: /img/banner.png
+    position: top
+    fit: cover
     bannerTitle: 让代码没有Bug,<br>世界永远和平。
     bannerText: The article tag
   category:
+    type: img
+    bgurl: /img/banner.png
+    position: top
+    fit: cover
     bannerTitle: 代码改变世界,<br>数据连接你我。
     bannerText: The article category
   links:
+    type: img
+    bgurl: /img/banner.png
+    position: top
+    fit: cover
     bannerTitle: 敲的不是代码,<br>是世界的改变。
     bannerText: A link to a friend's website
   comment:
+    type: img
+    bgurl: /img/banner.png
+    position: top
+    fit: cover
     bannerTitle: 代码改变世界,<br>数据连接你我。
     bannerText: The magic tree hole
   about:
+    type: img
+    bgurl: /img/banner.png
+    position: top
+    fit: cover
     bannerTitle: 这哪里是Bug?<br>这明明是未列出来的特性。
     bannerText: About me
 

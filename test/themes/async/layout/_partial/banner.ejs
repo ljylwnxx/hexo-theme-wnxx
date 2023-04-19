@@ -50,8 +50,12 @@
                         <h1 class="trm-mb-30 trm-hsmb-font">
                             <%- bannerTitle %>
                         </h1>
-
-                        <% if(is_home() && videoUrl){ %>
+                            <% if(is_home() && videoUrl) { %>
+                                <a data-fancybox data-fancybox="gallery" href="<%- videoUrl %>" class="trm-btn trm-btn-border">
+                                    Video <%- icon(theme.icons.play) %>
+                                </a>
+                            <% } %>
+                        <!-- <% if(is_home() && videoUrl){ %>
                             <a data-fancybox data-fancybox="gallery" href="<%- videoUrl %>" class="trm-btn trm-btn-border">
                                 Video <%- icon(theme.icons.play) %>
                             </a>
@@ -66,7 +70,7 @@
                                     </span
                                 ></li>
                             </ul>
-                        <% } %>
+                        <% } %> -->
                     </div>
                     <!-- banner title end -->
 

@@ -35,11 +35,8 @@ assets:
       main: js/main.js
   # Icon configuration
   icons: 
-    #  -type: font
-    #   css: css/plugins/font-awesome.min.css
-    #   js: 
       type: font
-      css: //at.alicdn.com/t/c/font_4020021_lhgtwuldzan.css
+      css: //at.alicdn.com/t/c/font_4020021_u1cidmdlplf.css
       js: 
 
 # CDN User - defined plug-in
@@ -61,7 +58,7 @@ icons:
   # email icon
   email: iconfont icon-email
   # Category entry icon
-  next: iconfont icon-next
+  next: iconfont icon-xiayibu_next
   # Date of article details
   calendar: iconfont icon-calendar
   # Article details time
@@ -138,15 +135,12 @@ sidebar:
   typedText: [ '今日目标,没有bug','一行代码,定义无限可能','永不脱发,无Bug']
 
   info: 
-    - key: sidebar.residence
-      val: Mars
+    - key: 个签
+      val: Hello World!
   social:
     - name: Github
       icon: iconfont icon-github
       url: https://github.com
-    # - name: NPM
-    #   icon: fab fa-npm
-    #   url: https://npm.com
     - name: gitee
       icon: iconfont icon-gitee
       url: https://gitee.com

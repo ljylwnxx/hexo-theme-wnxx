@@ -177,12 +177,12 @@ footer:
     enable: false
     icp: 
   # Copyright date
-  copyrightYear:
+  copyrightYear: 2022
   # 
   live_time:
-    enable: false
+    enable: true
     prefix: footer.tips
-    start_time: 16/80/2022 21:45:54
+    start_time: 08/16/2022 21:45:54
   #
   custom_text:
 

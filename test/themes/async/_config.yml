@@ -101,12 +101,12 @@ top_bars:
 # Banner settings
 banner:
   use_cover: false
-  # default:
-  #   type: img
-  #   bgurl: /img/banner.png
-  #   bannerText: Hi my new friend!
-  #   position: top
-  #   fit: cover
+  default:
+    type: img
+    bgurl: /img/banner.png
+    bannerText: Hi my new friend!
+    position: top
+    fit: cover
   index:
     bannerTitle: 喜欢这件事,不会有任何的Bug,<br>所以不需要Debug。
     bannerText: Hello World!

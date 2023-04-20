@@ -51,8 +51,6 @@ search:
   hits: '找到 ${hits} 条结果'
   hits_time: '找到 ${hits} 条结果（用时 ${time} 毫秒）'
 
-reward:
-  comment: 我很可爱，请给我钱
 
 post:
   sticky: 置顶

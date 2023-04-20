@@ -36,7 +36,7 @@ assets:
   # Icon configuration
   icons: 
       type: font
-      css: //at.alicdn.com/t/c/font_4020021_u1cidmdlplf.css
+      css: //at.alicdn.com/t/c/font_4020021_ht9wm832ys.css
       js: 
 
 # CDN User - defined plug-in
@@ -66,13 +66,11 @@ icons:
   # Author of article details
   user: iconfont icon-user
   # Return to the top icon
-  back_top: iconfont icon-back-top
+  back_top: iconfont icon-i-back-top
   # close icon
   close: iconfont icon-close
   # search icon
   search: iconfont icon-search
-  # reward icon
-  reward: iconfont icon-reward
   # User information and article directory switch
   user_tag: iconfont icon-user-tag
   toc_tag: iconfont icon-toc
@@ -216,14 +214,6 @@ footer:
 
 # Here is a collection of articles related to configuration.
 #### Article configuration start ###
-# Reward (Donate)
-# If enable true, reward would be displayed in every posts and pages by default.
-# You can show or hide reward in a specific page throuth `reward: true | false` in Front Matter.
-reward:
-  enable: false
-  comment: reward.comment
-  # url:
-  methods:
 
 # Article table of contents
 toc:
@@ -393,7 +383,6 @@ layout:
   # post
   post_info: _partial/post/post-info
   post_content: _partial/post/post-content
-  reward: _partial/post/reward
   post_copyright: _partial/post/post-copyright
   post_next_prev: _partial/post/post-next-prev
   post_card: _partial/post/post-card

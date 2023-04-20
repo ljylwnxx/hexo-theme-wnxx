@@ -50,7 +50,6 @@ const processLess = (hexo) => {
                 isSearch: false,
                 isReadmode: false,
                 isAside: false,
-                isReward: false,
                 highlightEnable: false,
                 highlightLineNumber: false,
                 prismjsEnable: false,
@@ -84,8 +83,6 @@ const processLess = (hexo) => {
         if (theme.config.rightside.aside) less.options.globalVars.isAside = true
     }
 
-    // 打赏
-    if (theme.config.reward.enable) less.options.globalVars.isReward = true
 
     // 代码高亮
     less.options.globalVars.highlightEnable = highlight && highlight.enable

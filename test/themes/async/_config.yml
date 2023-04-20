@@ -355,7 +355,7 @@ categorie_card:
 # Lower right button
 rightside:
   readmode: true
-  aside: false
+  aside: true
 
 # Replace Broken Images 
 error_img:

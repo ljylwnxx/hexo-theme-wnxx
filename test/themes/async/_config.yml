@@ -323,10 +323,10 @@ baidu_push: true
 # Blog search
 search:
   enable: true
-  type: engine #local engine
-  href: 'https://www.google.com/search?q=site:'
-  # href: "https://www.baidu.com/s?wd=site:"
-  # href: "https://www.bing.com/search?q=site:"
+  # type: engine #local engine
+  # href: 'https://www.google.com/search?q=site:'
+  # # href: "https://www.baidu.com/s?wd=site:"
+  # # href: "https://www.bing.com/search?q=site:"
   domain: 
   type: local
   preload: true
